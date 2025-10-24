@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/font/raleway-v37-latin-regular.woff2');
+}
+
+@font-face {
+    font-family: 'Economica';
+    src: url('./assets/font/Economica-Regular.ttf');
+}
+
+
+.fontRaleway {
+    font-family: 'Raleway';
+}
