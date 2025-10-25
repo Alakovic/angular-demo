@@ -11,14 +11,60 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 64px;
   }
-  h2{
-    font-family: "Raleway", sans-serif;
+  h2 {
+    font-family: 'Raleway', sans-serif;
     font-size: 60px;
     font-weight: bold;
     color: #9f0908;
     margin-block-start: 0;
     margin-block-end: 0;
     text-align: center;
+  }
+  img {
+    width: 352px;
+    height: 352px;
+  }
+  .menu1 {
+    padding-bottom: 56px;
+  }
+  .menu1,
+  .menu3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .menu2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-bottom: 56px;
+    flex-wrap: wrap;
+  }
+  th {
+    font-family: 'Economica', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 16px;
+  }
+  td {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #675e54;
+    padding-bottom: 8px;
+  }
+  table {
+    width: 450px;
+  }
+  .t_right {
+    margin-left: 80px;
+    text-align: left;
+  }
+  .t_left{
+    margin-right: 80px;
   }
 }
